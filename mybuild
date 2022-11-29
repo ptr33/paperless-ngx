@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./build-docker-image.sh Dockerfile -t ghcr.io/ptr33/paperless-ngx:dev && \
+docker push ghcr.io/ptr33/paperless-ngx:dev
